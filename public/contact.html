@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+<div class="navbar">
+    <h1>LCA</h1>
+    <a class="nav_link" href="index.html"> Home</a>
+    <a class="nav_link" href="resume.html"> Resume</a>
+    <a class="nav_link" href="portfolio.html">Portfolio</a>
+    <a class="nav_link" href="contact.html">Contact</a>
+</div>
+<div class= "container_space"></div>
+<h3>Contact Form</h3>
+<div class="container_form">
+<form action="action.php" method="post" name="myForm" onsubmit="return validateForm()">
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first-name" id="first-name" required>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" name="last-name" id="last-name" required>
+
+    <label for="myemail">Enter Email Address:</label>
+    <input type="email" name="email" id="myemail">
+
+    <label for="message">Message:</label>
+    <textarea rows="3" cols="30" name="message" id="message" required></textarea> 
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</div>
+
+<div class= "container_space"></div>
+<div class="footer">
+<p>Portfolio</p>
+</div>
+</body>
+
+</html>
